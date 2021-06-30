@@ -19,16 +19,6 @@ public class Car {
         this.color = color;
     }
 
-    public List<Car> getCars() {
-        List<Car> cars = new ArrayList<>();
-        cars.add(new Car(1, "car1", "black"));
-        cars.add(new Car(2, "car2", "green"));
-        cars.add(new Car(3, "car3", "white"));
-        cars.add(new Car(4, "cars4", "red"));
-        cars.add(new Car(5, "cars5", "yellow"));
-        return cars;
-    }
-
     public int getId() {
         return id;
     }
